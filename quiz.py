@@ -18,8 +18,9 @@ class Word:
             print("틀렸습니다.")
 
 #word = Word("얼죽아", "얼어 죽어도 아메리카노", "얼굴만은 죽어도 아기피부", 1)
-word = Word("혼코노", "혼자서는 코딩 노노", "혼자 코인 노래방", 2)
+#word = Word("혼코노", "혼자서는 코딩 노노", "혼자 코인 노래방", 2)
 #word = Word("애빼시", "애교 빼면 시체", "애들은 빼빼로 시시해", 1)
+word = Word("가싶남", "가고 싶은 남산", "가지고 싶은 남자", 2)
 
 word.show_question()
 word.check_answer(int(input("=> ")))
